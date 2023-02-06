@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextActivity">
+
+
+    <TextView
+        android:id="@+id/wel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Hi User"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wel"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Mail"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:padding="10dp"
+        android:text="LogOut"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+
+        />
+
+    <Button
+        android:id="@+id/newgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/purple_700"
+        android:padding="15dp"
+        android:text="+ Create a new group"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

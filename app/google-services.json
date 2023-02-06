@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "45893624483",
+    "project_id": "settleup-expenses-app",
+    "storage_bucket": "settleup-expenses-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45893624483:android:1928bfd817e2e44c965516",
+        "android_client_info": {
+          "package_name": "com.example.settleupexpensesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45893624483-g3i1ib62jir5koahrhmtt8pm01ubvipa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfNffdntPxmgLHq4B9zD5hV9IV6vRAlBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45893624483-g3i1ib62jir5koahrhmtt8pm01ubvipa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
